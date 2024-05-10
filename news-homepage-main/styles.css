@@ -80,6 +80,7 @@ body{
     padding: 20px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 120px;
 }
 
 .new > h1{
@@ -98,6 +99,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
     
 }
 .flex-content .img-flex img{
@@ -105,49 +107,17 @@ body{
     height:100px;
     margin-right: 20px;
 }
-.retro-pcs{
+.content{
     display:flex;
-    
 }
-
-.retro-pcs-content{
+.content-details{
     font-size: 14px;
     padding: 5px;
     color:rgb(165, 161, 161) ;
-   
-}
-.laptops{
-    display:flex;
-    
-}
-
-.top-laptops-content{
-    font-size: 14px;
-    padding: 5px;
-    color:rgb(165, 161, 161) ;
-   
-}
-.gaming{
-    display:flex;
-    
-}
-
-.growth-of-gaming{
-    font-size: 14px;
-    padding: 5px;
-    color:rgb(165, 161, 161) ;
-   
 }
 #bold{
     color: black;
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-.gaming{
-    display:flex;
-}
-.laptops{
-    display:flex;
 }
