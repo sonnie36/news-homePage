@@ -14,9 +14,10 @@ body{
 .nav{
     height:80px;
     width:100%;
+    margin-bottom: 20px;
     display:flex;
     justify-content: space-between;
-    padding:10px;
+    align-items: center;
 }
 .nav-links ul{
     display: flex;
@@ -26,4 +27,35 @@ body{
 }
 .nav-links ul li{
     margin-left: 20px;
+}
+
+.body-content{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 'i i e' 'h c e';
+}
+
+.image{
+    grid-area: i;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 360px;
+    width: 100%;
+    background: url('./assets/images/image-web-3-desktop.jpg');
+
+}
+
+
+.web3-heading{
+    grid-area: h;
+}
+.web3-content{
+    grid-area: c;
+}
+.new{
+    grid-area: e;
+    height: fit-content;
 }
